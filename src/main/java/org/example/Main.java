@@ -4,7 +4,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        TwitterBot twitterBot = new TwitterBot("MTE2NDAyMTAyOTMxNjg1Mzg5NA.GjipMM.Op_ViO6yVC8llZVEGMZIbh-KUjfKznMDq5YUQ8");
+        TwitterBot twitterBot = new "YOUR_TOKEN_HERE");
         Runtime.getRuntime().addShutdownHook(new Thread(twitterBot::onShutdown));
 
         try {
